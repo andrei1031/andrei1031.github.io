@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Information Technology</title>
+    <link rel="stylesheet" href="myportfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <header style="background-color: rgb(130, 99, 99); padding: 10px; width: 100cqw;">
+        <ul style="list-style-type:none;">
+            <li style="text-align: center"> <a style="margin: auto; color: deeppink;" href="index.html">Home</a>  <a style="margin: auto; color: #ffe586;" href="Aboutmesection.html">About me</a>
+            <a style="margin: auto; color: rgb(220, 92, 37)"href="AchievementsInIT.html">Achievements In IT</a>  <a style="margin: auto; color: #2f2fa2;" href="AchievementsInAMT.html">Achievements In AMT</a></li>
+        </ul>
+        </header>
+</head>
+<body>
+<div class="main">
+    <div class="box">
+        <p style="font-size: 400%; color: rgb(220, 92, 37);">Computer<br>Information<br>Technology</p>
+    </div>
+</div>
+<br>
+        <div id="image">
+        <img id="current-image" src="images/IT.png" alt="IT" title="Parang Tanga">
+        </div>
+        <dl>
+        <dt><b style="font-size: 150%; color: darkorange;">Senior Programmer</b></dt><br><br>
+        <p style="color: deeppink;">Data-driven professional with 10+ years experience across<br> 
+        a broad range of platforms and proven success in maximizing<br> 
+        efficiency within organizations. Recognized history of leading<br> 
+        my teams to success and businesses to new heights.</p>
+        </dl>
+        <p style="color: indigo;">---------------------------------------------------</p>
+        <b style="font-size: 150%;">Skills</b><br><br>
+            <li style="color: cyan;">Android(MIT)</li><br>
+            <li style="color: cyan;">SQL</li><br>
+            <li style="color: cyan;">HTML</li><br>
+            <li style="color: cyan;">CSS</li><br>
+            <li style="color: cyan;">JAVA</li><br>
+            <li style="color: cyan;">Python</li><br>
+            <p style="color: rgb(13, 238, 13);">---------------------------------------------------</p>
+    <dl>
+        <dt><b style="font-size: 150%; color: deepskyblue;">Educational Background</b></dt><br><br>
+        <p style="color: limegreen;">University of the Cordillera<br>(BS in Information Technology Major in Web Technology)
+        <br><br><sup style="color: rgb(227, 15, 15);">(2023-2026)</sup>
+        </p>
+        <p style="color: magenta;">---------------------------------------------------</p>
+    </dl>
+    
+    <h3 id="DarkModetext">Dark Mode is ON</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+        function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <a href = "index.html" title="This will take you back to my Overview Section" style="color: blue;">
+        < Back
+    </a><br>
+</body>
+<br><small><sub style="color: peru;">©2023 OnlinePortfolio.<br>All rights reserved</sub></small>
+</html>
