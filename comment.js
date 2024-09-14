@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log(key, ':', value);
         });
         alert('Thank you!')
-        alert('Comment submitted successfully!');
+        alert('Your Comment submitted successfully!');
         surveyForm.reset(); 
     });
 });
